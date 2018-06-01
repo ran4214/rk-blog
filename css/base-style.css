@@ -1,8 +1,27 @@
-.header-upper{
-  padding: 5px 0px;
+.header-upper {
   background: #55A79A;
-
+  height: 26px;
+  padding: 5px 0;
 }
-.header-upper-left{
 
+.header-upper-left>ul {
+  padding: 0px;
+  font-size: 0.5rem;
+  color: #f4f4f4;
+  margin-left: 50px;
+}
+
+.header-upper-left>ul>li {
+  display: inline-block;
+  margin: 0px 0.8px;
+}
+
+.header-upper-left>ul>li:last-child {
+  border-left : 1px solid gray;
+}
+
+.header-upper-left>ul>li>img {
+  height: 11px;
+  padding: 0.1em 0.2em;
+  margin-bottom: 0.5px;
 }
