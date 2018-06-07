@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-html {
+html ,body {
     background-color: #fafafa;
     font-family: 'Montserrat';
 }
-body {
-    font-family: 'Montserrat';
-}
-
 ul{
     margin : 0px;
     padding: 0px;
@@ -27,20 +23,27 @@ li > .fab {
     width: 1200px;
     height: 85px;
     margin : 0 auto;
-    background-color: blueviolet;
+    background-color: #eee;
     display: flex;
+    border: 1px solid #dedede;
 }
 
 #main-logo{
+    background-color: #fff;
+    border-right: 1px solid #dedede;
     display: inline-block;
     width: 180px;
     padding-right: 50px;
     text-align: center;
     vertical-align: middle;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 1.3rem;
-    border: 1px solid gray;
     line-height: 80px;
+}
+
+#top-menu{
+
+    border-left: none;
 }
 
 #top-menu > ul > li{
@@ -53,16 +56,15 @@ li > .fab {
 
 #top-icon > ul >li {
     display: inline-block;
-    padding: 27px 0px;
+    padding-top : 30px;
 }
 
 #top-icon > ul >li:nth-child(3) {
     margin-right: 35px;
 }
 
-#top-icon > ul >li:nth-child(4) {
-    padding: 0px;
-    height: 85px;
+#top-search{
+    line-height: 85px;
 }
 
 #top-icon{
