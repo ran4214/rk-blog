@@ -20,6 +20,10 @@ a, a:hover {
 li > .fab {
     cursor: pointer;
 }
+li > .fa-ellipsis-v{
+    margin-right: 15px;
+    font-size: 0.8rem;
+}
 
 .header-inner {
     width: 1200px;
@@ -27,12 +31,11 @@ li > .fab {
     margin: 0 auto;
     background-color: #eee;
     display: flex;
-    border: 1px solid #dedede;
+    box-shadow: 1px 1px #dedede;
 }
 
 #main-logo {
     background-color: #fff;
-    border-right: 1px solid #dedede;
     display: inline-block;
     width: 180px;
     padding-right: 50px;
@@ -41,6 +44,7 @@ li > .fab {
     font-weight: 900;
     font-size: 1.3rem;
     line-height: 80px;
+    box-shadow: 1px 1px #dedede;
 }
 
 #top-menu {
@@ -83,5 +87,18 @@ li > .fab {
 }
 
 .side-category {
-    width: 200px;
+    width: 180px;
+    height: 100%;
+    padding : 10px;
+    font-weight: bold;
+    background: #fdfdfd;
 }
+.category-title{
+    font-size : 1.2rem;
+    margin-bottom: 2px;
+}
+.side-category>ul>li{
+    margin : 10px 10px 10px 5px;
+    color : #606060;
+}
+
