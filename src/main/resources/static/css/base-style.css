@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-html ,body {
+html, body {
     background-color: #fafafa;
     font-family: 'Montserrat';
 }
-ul{
-    margin : 0px;
+
+ul {
+    margin: 0px;
     padding: 0px;
     list-style-type: none;
 }
-a,a:hover{
+
+a, a:hover {
     cursor: pointer;
     color: black;
     text-decoration: none;
@@ -19,16 +21,16 @@ li > .fab {
     cursor: pointer;
 }
 
-.header-inner{
+.header-inner {
     width: 1200px;
     height: 85px;
-    margin : 0 auto;
+    margin: 0 auto;
     background-color: #eee;
     display: flex;
     border: 1px solid #dedede;
 }
 
-#main-logo{
+#main-logo {
     background-color: #fff;
     border-right: 1px solid #dedede;
     display: inline-block;
@@ -41,33 +43,33 @@ li > .fab {
     line-height: 80px;
 }
 
-#top-menu{
+#top-menu {
 
     border-left: none;
 }
 
-#top-menu > ul > li{
+#top-menu > ul > li {
     font-weight: bold;
-    display:inline-block;
+    display: inline-block;
     font-size: 1rem;
-    padding : 25px 15px;
+    padding: 25px 15px;
     margin: 5px;
 }
 
-#top-icon > ul >li {
+#top-icon > ul > li {
     display: inline-block;
-    padding-top : 30px;
+    padding-top: 30px;
 }
 
-#top-icon > ul >li:nth-child(3) {
+#top-icon > ul > li:nth-child(3) {
     margin-right: 35px;
 }
 
-#top-search{
+#top-search {
     line-height: 85px;
 }
 
-#top-icon{
+#top-icon {
     margin-left: 70px;
 }
 
@@ -75,11 +77,11 @@ li > .fab {
     font-size: 25px;
 }
 
-.section-wrapper{
+.section-wrapper {
     width: 1200px;
     margin: 0 auto;
 }
 
-.side-category{
+.side-category {
     width: 200px;
 }

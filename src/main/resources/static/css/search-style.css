@@ -8,17 +8,21 @@
     cursor: pointer;
     background: #444;
 }
+
 .search-box + label .search-icon {
     color: white;
 }
-.search-box:hover{
+
+.search-box:hover {
     color: black;
     background: #c8c8c8;
     box-shadow: 0 0 0 5px #3d4752;
 }
+
 .search-box:hover + label .search-icon {
     color: black;
 }
+
 .search-box:focus {
     transition: width 0.6s cubic-bezier(0, 1, 0.66, 1), border-radius 0.6s, background 0.6s;
     border: none;
@@ -31,9 +35,11 @@
     background: white;
     color: black;
 }
+
 .search-box:focus + label .search-icon {
     color: black;
 }
+
 .search-box:not(:focus) {
     text-indent: -5000px;
 }
