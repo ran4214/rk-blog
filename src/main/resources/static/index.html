@@ -28,34 +28,40 @@
 <header>
     <div class="header-inner">
         <div id="main-logo"><a href="#">RK Blog</a></div>
+
         <div id="top-menu">
-            <ul>
-                <li><a>HOME</a></li>
-                <li><a>PROFILE</a></li>
-                <li><a>PROGRAMING</a></li>
-                <li><a>PORTFOLIO</a></li>
-            </ul>
-        </div>
-        <div id="top-icon">
-            <ul>
-                <li><i class="fab fa-facebook"></i></li>
-                <li><i class="fab fa-twitter-square"></i></li>
-                <li><i class="fab fa-google-plus-square"></i></li>
-            </ul>
+            <div id="top-icon">
+                <ul>
+                    <li><i class="fab fa-facebook"></i></li>
+                    <li><i class="fab fa-twitter-square"></i></li>
+                    <li><i class="fab fa-google-plus-square"></i></li>
+                </ul>
+            </div>
+
+            <div>
+                <form class="search-container" id="top-search" action="">
+                    <input id="search-box" type="text" class="search-box" placeholder="search..." name="search" autocomplete="off"/>
+                    <label for="search-box"><i class="fas fa-search search-icon "></i></label>
+                </form>
+            </div>
+
         </div>
 
-        <div>
-            <form class="search-container" id="top-search" action="">
-                <input id="search-box" type="text" class="search-box" placeholder="search..." name="search"/>
-                <label for="search-box"><i class="fas fa-search search-icon "></i></label>
-            </form>
-        </div>
     </div>
 </header>
 
 <section class="section-wrapper">
     <nav class="side-category">
+        <div class="category-title">HOME</div>
+        <div class="category-title">PROFILE</div>
+        <div class="category-title">PORTFOLIO</div>
+        <hr>
+        <ul>
+            <li><i class="fas fa-ellipsis-v"></i>Blog</li>
+            <li><i class="fas fa-ellipsis-v"></i>React Native</li>
+        </ul>
         <div class="category-title">Programming</div>
+
         <hr>
         <ul>
             <li><i class="fas fa-ellipsis-v"></i>HTML</li>
