@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+
 
 html, body {
     background-color: #fafafa;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat','nanumsquare';
 }
 
 ul {
@@ -49,7 +51,7 @@ li > .fa-ellipsis-v{
 
 #top-menu {
     display: flex;
-    margin-left: 690px;
+    margin-left: 530px;
 
 }
 
@@ -64,6 +66,16 @@ li > .fa-ellipsis-v{
 #top-icon > ul > li {
     display: inline-block;
     padding-top: 30px;
+}
+#top-login>ul>li{
+    display: inline-block;
+    line-height: 85px;
+    margin: auto 5px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#top-login>ul>li:last-child{
+    margin-right: 20px;
 }
 
 #top-icon > ul > li:nth-child(3) {
@@ -81,6 +93,14 @@ li > .fa-ellipsis-v{
 #top-icon .fab {
     font-size: 25px;
 }
+#top-menu li>a:hover ,
+.category-title a:hover {
+    color: #888;
+}
+
+.side-category >ul>li:hover{
+    color: black;
+}
 
 .section-wrapper {
     width: 1200px;
@@ -93,15 +113,31 @@ li > .fa-ellipsis-v{
     padding : 20px 0 0 20px;
     font-weight: bold;
     background: #fdfdfd;
+    position: fixed;
+    display: inline-block;
+    box-shadow: 3px 2px 5px -2px rgba(40,40,40,.5)
+}
+.main-content{
+
+    margin-left: 180px;
+    height: 1000px;
+    color : white;
+    font-size: 1.2rem;
+}
+.home-logo{
+    background-image: url("/images/home-logo.png");
+    height: 477px;
+    background-size: 1023px 477px;
+    color : white;
 }
 .category-title{
     font-size : 1.0rem;
     margin-bottom: 15px;
 }
 .side-category>ul>li{
-    margin : 10px 10px 10px 10px;
+    margin : 10px 10px 10px 5px;
     color : #606060;
 }
 .side-category>ul>li:last-child{
-    margin : 10px 10px 30px 10px;
+    margin : 10px 10px 30px 5px;
 }
