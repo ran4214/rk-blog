@@ -34,6 +34,11 @@ li > .fa-ellipsis-v{
     background-color: #eee;
     display: flex;
     box-shadow: 1px 1px #dedede;
+    position: fixed;
+    z-index: 2;
+    left: 50%;
+    margin-left: -600px;
+    box-shadow: 3px 4px 6px -2px rgba(40,40,40,.5);
 }
 
 #main-logo {
@@ -115,21 +120,47 @@ li > .fa-ellipsis-v{
     background: #fdfdfd;
     position: fixed;
     display: inline-block;
-    box-shadow: 3px 2px 5px -2px rgba(40,40,40,.5)
+    box-shadow: 3px 2px 5px -2px rgba(40,40,40,.5);
+    margin-top: 85px;
+    z-index : 3;
 }
 .main-content{
-
     margin-left: 180px;
     height: 1000px;
     color : white;
     font-size: 1.2rem;
+    position: relative;
+    top: 85px;
+    height: 100%;
+    box-shadow: 3px 2px 5px -2px rgba(40,40,40,.5);
 }
 .home-logo{
-    background-image: url("/images/home-logo.png");
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.20),
+            rgba(0, 0, 0, 0.20)
+    ),
+    url("/images/home-logo.png");
+
     height: 477px;
     background-size: 1023px 477px;
     color : white;
+    font-size: 3rem;
 }
+.home-logo:after{
+    background-color:rgba(255,255,255,0.1);
+    z-index: 5;
+}
+
+.home-logo>div:nth-child(1){
+    padding-top: 350px;
+    padding-left: 20px;
+}
+.home-logo>div:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 23px;
+}
+
 .category-title{
     font-size : 1.0rem;
     margin-bottom: 15px;
