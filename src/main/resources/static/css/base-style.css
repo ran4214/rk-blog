@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
-
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@import url('https://fonts.googleapis.com/earlyaccess/jejugothic.css');
 
 html, body {
     background-color: #fafafa;
-    font-family: 'Montserrat','nanumsquare';
+    font-family: 'Montserrat','Jeju Gothic';
 }
 
 ul {
@@ -128,6 +128,7 @@ li > .fa-ellipsis-v{
     margin-left: 180px;
     height: 1000px;
     color : white;
+    background-color: #eeeeee;
     font-size: 1.2rem;
     position: relative;
     top: 85px;
@@ -140,6 +141,7 @@ li > .fa-ellipsis-v{
             rgba(0, 0, 0, 0.20)
     ),
     url("/images/home-logo.png");
+    box-shadow: 3px 5px 5px -2px rgba(40,40,40,.5);
 
     height: 477px;
     background-size: 1023px 477px;
@@ -171,4 +173,47 @@ li > .fa-ellipsis-v{
 }
 .side-category>ul>li:last-child{
     margin : 10px 10px 30px 5px;
+}
+.under-content-wrapper{
+    display:flex;
+    color:black;
+    height: 412px;
+    font-weight: 600;
+
+}
+.post-title,.post-title,.post-category,.post-article,.post-date{
+    font-family: 'Jeju Gothic';
+}
+.latest-posts{
+    width: 600px;
+    padding: 25px;
+    border-right: solid 1px #DEDEDE;
+}
+.latest-posts>p{
+    color : #606060;
+    font-weight: bolder;
+    font-size: 1.0rem;
+}
+
+
+.post-title{
+    margin-bottom: 0.5rem;
+}
+.post-article{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color : #333;
+    margin-bottom: 0px;
+}
+.post-category,.post-date{
+    font-weight: lighter;
+    font-size: 0.9rem;
+    color :#606060;
+}
+.post-category{
+    margin-right: 10px;
+}
+
+.popular-posts{
+
 }
