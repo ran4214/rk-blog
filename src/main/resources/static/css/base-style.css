@@ -179,7 +179,7 @@ li > .fa-ellipsis-v{
     color:black;
     height: 412px;
     font-weight: 600;
-
+    height: 100%;
 }
 .post-title,.post-title,.post-category,.post-article,.post-date{
     font-family: 'Jeju Gothic';
@@ -189,7 +189,7 @@ li > .fa-ellipsis-v{
     padding: 25px;
     border-right: solid 1px #DEDEDE;
 }
-.latest-posts>p{
+.posts-category{
     color : #606060;
     font-weight: bolder;
     font-size: 1.0rem;
@@ -198,6 +198,7 @@ li > .fa-ellipsis-v{
 
 .post-title{
     margin-bottom: 0.5rem;
+    color : #323232;
 }
 .post-article{
     font-size: 0.9rem;
@@ -205,15 +206,34 @@ li > .fa-ellipsis-v{
     color : #333;
     margin-bottom: 0px;
 }
-.post-category,.post-date{
+.post-category,.post-date,.post-more{
+    font-family: 'Jeju Gothic';
     font-weight: lighter;
     font-size: 0.9rem;
     color :#606060;
 }
+.latest-posts>ul>li .fa-caret-right,.popular-posts>ul>li .fa-caret-right{
+    float : right;
+    margin-left: 5px;
+    line-height: 1.7;
+    color :#606060;
+}
+.post-more{
+    color:#333;
+    font-weight: 500;
+    margin-top: 6px;
+    float: right;
+}
+
+
 .post-category{
     margin-right: 10px;
 }
+.latest-posts>ul>li{
+    margin-bottom: 20px;
+}
 
 .popular-posts{
-
+    width: 420px;
+    padding : 25px;
 }
