@@ -6,8 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class defaultController {
 
-    @RequestMapping("/login")
-    public String loginGET(){
-        return "login.html";
+    @RequestMapping("/home")
+    public String homeGET(){
+        System.out.println("hi!");
+        return "home";
     }
 }
